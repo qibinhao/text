@@ -8,7 +8,7 @@ on:
     types: started
   schedule:
     #- cron: '5 16 * * *'
-    - cron: "30 22 * * *" # 北京时间上午06:30
+    - cron: "20 22 * * *" # 北京时间上午06:40
 jobs:
   build:
     runs-on: ubuntu-latest
